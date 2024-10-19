@@ -1,4 +1,4 @@
-package headfirst.design_patterns;
+package headfirst.design_patterns.behavioral.strategy.problem;
 
 public class MallardDuck extends Duck implements Flyable, Quackable {
 
