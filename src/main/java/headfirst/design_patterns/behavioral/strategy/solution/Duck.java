@@ -20,5 +20,12 @@ public abstract class Duck {
         System.out.println("All ducks float, even decoys!");
     }
 
-    public abstract void display();  // Abstract method for display (to be implemented by subclasses)
+    public abstract void display();// Abstract method for display (to be implemented by subclasses)
+
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
 }
